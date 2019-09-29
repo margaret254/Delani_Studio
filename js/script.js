@@ -17,6 +17,7 @@ $("#productManagement").click(function()
 
 });
 
+// portfolio items section
 $('#hov').hover(function() {
     $(this).children(".overlay").fadeToggle(1000, "linear");
     $(this).toggle(css('.'))
