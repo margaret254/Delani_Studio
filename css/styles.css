@@ -44,6 +44,7 @@ p{
     font-family: 'Acme', sans-serif;
 } 
 
+/* what we do section */
 .WhatWeDo{
     text-align:center;
     padding-top: 5%;
@@ -62,6 +63,7 @@ p{
 display:none;
 }
 
+/* portfolio section */
 .portfolio{
     text-align: center;
     justify-content:space-around;
@@ -132,6 +134,7 @@ display:none;
     
     transition: all 0.5s ease;
   }
+  
 #contact{
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
     height: 50vh;
