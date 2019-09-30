@@ -42,3 +42,13 @@ function() {
   		opacity: '0'
   	})
   })
+
+  $(document).ready(function(){
+      $("form").submit(function(event){
+          var name= $("#name").val();
+            alert("Hello "  + name + ",Thanks for reaching to us. We have received your message.");
+      });
+  });
+  
+
+  

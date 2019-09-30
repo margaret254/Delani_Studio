@@ -1,10 +1,12 @@
-.container-fluid{
+.landing{
 background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg");
-height:95vh;
+/* height:100vh; */
+width: 100%;
 text-align: center;
-padding-top:300px;
+padding-top:290px;
 color: white;
 font-family: 'Ramabhadra', sans-serif;
+background-repeat: no-repeat;
 }
 
 p{
@@ -36,8 +38,10 @@ p{
     text-align: center;
     color: whitesmoke;
     height: 50vh;
-    padding-top:100px;
+    width:100%;
+    padding-top:80px;
     font-size:20px;
+    background-repeat: no-repeat;
 }
 
 .services h2{
@@ -68,7 +72,6 @@ display:none;
     text-align: center;
     justify-content:space-around;
     margin-top: 5%;
-  
   }
 
   .text{
@@ -138,33 +141,28 @@ display:none;
 #contact{
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
     height: 50vh;
+    width:100%;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .form-cont input {
     width: 45%;
     background: transparent;
-    color: white;
+
     
 }
-.form-cont textarea {
-    margin-top: 20px;
-    width: 100%;
-    background: transparent;
-    color: white;
-    padding-top:10px;
-    
-}
+
 .form-cont{
     text-align: center;
     position: relative;
     left: 50%;
-    width:800px;
+    width:50%;
     transform: translate(-50%);
     
 }
 ::placeholder{
-    font-size: 15px;
+    font-size: 20px;
     color: white;
 }
 #contact h1{
@@ -184,3 +182,15 @@ display:none;
 #links{
     margin:50px;
 }
+
+#mc_embed_signup{
+    background:transparent; 
+    clear:left; 
+    font:20px Helvetica,Arial,sans-serif;
+ }
+
+ #message{
+     height: 20vh;
+     text-align:center;
+     
+ }
